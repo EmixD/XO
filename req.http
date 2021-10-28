@@ -3,6 +3,11 @@ curl http://localhost:8080/ \
     --request "GET" 
 
 ###
+curl http://xo.onrender.com/ \
+    --include \
+    --request "GET" 
+
+###
 curl http://localhost:8080/user/create \
     --include \
     --header "Content-Type: application/json" \
